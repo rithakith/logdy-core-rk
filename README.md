@@ -9,7 +9,7 @@ All credit for the core engine and design goes to the original **[Logdy Team](ht
 
 ---
 
-## ✨ Added Improvements
+## Added Improvements
 
 These modifications address specific workflow friction and UI layout issues:
 
