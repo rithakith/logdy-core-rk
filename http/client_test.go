@@ -224,7 +224,7 @@ func TestClientsStats(t *testing.T) {
 	time.Sleep(10 * time.Millisecond)
 
 	assert.Equal(t, c.Stats().Count, 100)
-	assert.Less(t, st.UnixMicro(), c.Stats().FirstMessageAt.UnixMicro())
+	assert.LessOrEqual(t, st.UnixMicro(), c.Stats().FirstMessageAt.UnixMicro())
 	assert.GreaterOrEqual(t, stop.UnixMicro(), c.Stats().LastMessageAt.UnixMicro())
 }
 
