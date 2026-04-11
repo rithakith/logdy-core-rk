@@ -14,13 +14,17 @@ All credit for the core engine and design goes to the original **[Logdy Team](ht
 These modifications address specific workflow friction and UI layout issues:
 
 *   **Custom Highlighting**: Allows you to highlight specific words or phrases with custom colors, making it much easier to visually scan and identify important log entries.
-    [INSERT_SNIPPET_HERE]
-*   **Live Search & Filtering**: Supports instant filtering as you type. It also handles Regular Expressions and Structured JSON Queries (e.g., `data.user == "admin"`) for more detailed data exploration.
-    [INSERT_SNIPPET_HERE]
+    <video src="assets/highlighting.mp4" width="100%" controls></video>
+*   **Live Search & Filtering**: Results filter instantly as you type.
+    *   **Instant Text & RegEx Search**: Search through raw logs using simple text or powerful Regular Expressions.
+        - *Example:* `error`
+        <video src="assets/live_search.mp4" width="100%" controls></video>
+    *   **Structured JSON Queries**: Deeply filter logs by querying specific JSON fields.
+        - *Example:* `data.level == "trace"`, `data.method == "PATCH"`, `data.duration == "441"`, `data.domain == "nationalbest-of-breed.com"`
+        <video src="assets/query_search.mp4" width="100%" controls></video>
 *   **Show in Context**: If you find an entry through search but want to see the surrounding logs, you can jump directly into its original context with a single click.
-    [INSERT_SNIPPET_HERE]
-*   **Rendering Performance**: UI optimizations to prevent freezes and ensure smooth log navigation during high-volume bursts.
-    [INSERT_SNIPPET_HERE]
+    <video src="assets/show_in_context.mp4" width="100%" controls></video>
+
 
 
 ---
