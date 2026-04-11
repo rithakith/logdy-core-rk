@@ -14,7 +14,7 @@ All credit for the core engine and design goes to the original **[Logdy Team](ht
 These modifications address specific workflow friction and UI layout issues:
 
 *   **Custom Highlighting**: Allows you to highlight specific words or phrases with custom colors, making it much easier to visually scan and identify important log entries.
-    <video src="assets/highlighting.mp4" width="100%" controls></video>
+        <video src="https://github.com/rithakith/logdy-core/raw/main/assets/highlighting.mp4" width="100%" controls></video>
 *   **Live Search & Filtering**: Results filter instantly as you type.
     *   **Instant Text & RegEx Search**: Search through raw logs using simple text or powerful Regular Expressions.
         - *Example:* `error`
