@@ -10,8 +10,8 @@ import (
 	"sync"
 	"testing"
 
-	. "github.com/logdyhq/logdy-core/models"
-	"github.com/logdyhq/logdy-core/utils"
+	. "github.com/rithakith/logdy-core-rk/models"
+	"github.com/rithakith/logdy-core-rk/utils"
 	"github.com/stretchr/testify/assert"
 )
 

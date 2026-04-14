@@ -62,7 +62,7 @@ $ logdy-rk follow system.log
 
 ## Installation
 
-You can find the latest precompiled binaries for all platforms on the [Releases](https://github.com/rithakith/logdy-core/releases) page. Just download the one for your system and add it to your PATH.
+You can find the latest precompiled binaries for all platforms on the [Releases](https://github.com/rithakith/logdy-core-rk/releases) page. Just download the one for your system and add it to your PATH.
 
 
 

@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/cheggaaa/pb/v3"
-	"github.com/logdyhq/logdy-core/utils"
+	"github.com/rithakith/logdy-core-rk/utils"
 	"github.com/sirupsen/logrus"
 )
 

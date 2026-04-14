@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/logdyhq/logdy-core/models"
+	"github.com/rithakith/logdy-core-rk/models"
 	"github.com/stretchr/testify/assert"
 )
 

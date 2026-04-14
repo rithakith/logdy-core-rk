@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/logdyhq/logdy-core/utils"
+	"github.com/rithakith/logdy-core-rk/utils"
 	"github.com/stretchr/testify/assert" // Replace with your favorite testing framework
 )
 

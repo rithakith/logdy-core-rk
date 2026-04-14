@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/logdyhq/logdy-core/utils"
+	"github.com/rithakith/logdy-core-rk/utils"
 )
 
 const API_KEY_HEADER_NAME = "Authorization"

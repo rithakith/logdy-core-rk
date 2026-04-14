@@ -7,9 +7,9 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/logdyhq/logdy-core/models"
-	"github.com/logdyhq/logdy-core/modes"
-	"github.com/logdyhq/logdy-core/utils"
+	"github.com/rithakith/logdy-core-rk/models"
+	"github.com/rithakith/logdy-core-rk/modes"
+	"github.com/rithakith/logdy-core-rk/utils"
 )
 
 type LogItemRequest struct {

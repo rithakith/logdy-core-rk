@@ -4,7 +4,7 @@ FROM golang:1-alpine AS builder
 
 # For available labels, see OCI Annotations Spec docs:
 # https://specs.opencontainers.org/image-spec/annotations/#pre-defined-annotation-keys
-LABEL org.opencontainers.image.source="https://github.com/logdyhq/logdy-core"
+LABEL org.opencontainers.image.source="https://github.com/rithakith/logdy-core-rk"
 
 WORKDIR /go/src/logdy-core/
 COPY ./ /go/src/logdy-core/

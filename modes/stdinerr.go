@@ -5,8 +5,8 @@ import (
 	"io"
 	"os/exec"
 
-	"github.com/logdyhq/logdy-core/models"
-	"github.com/logdyhq/logdy-core/utils"
+	"github.com/rithakith/logdy-core-rk/models"
+	"github.com/rithakith/logdy-core-rk/utils"
 )
 
 func readOutput(reader io.Reader, outputCh chan models.Message, messageType models.LogType) {

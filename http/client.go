@@ -5,11 +5,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/logdyhq/logdy-core/models"
-	"github.com/logdyhq/logdy-core/ring"
-	"github.com/logdyhq/logdy-core/utils"
+	"github.com/rithakith/logdy-core-rk/models"
+	"github.com/rithakith/logdy-core-rk/ring"
+	"github.com/rithakith/logdy-core-rk/utils"
 
-	. "github.com/logdyhq/logdy-core/models"
+	. "github.com/rithakith/logdy-core-rk/models"
 )
 
 var Ch chan models.Message

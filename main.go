@@ -7,13 +7,13 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/logdyhq/logdy-core/utils"
+	"github.com/rithakith/logdy-core-rk/utils"
 
 	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 
-	"github.com/logdyhq/logdy-core/http"
-	"github.com/logdyhq/logdy-core/modes"
+	"github.com/rithakith/logdy-core-rk/http"
+	"github.com/rithakith/logdy-core-rk/modes"
 )
 
 var Version = "0.17.2-rk"

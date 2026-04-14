@@ -4,10 +4,10 @@ import (
 	"encoding/json"
 	_http "net/http"
 
-	"github.com/logdyhq/logdy-core/http"
-	"github.com/logdyhq/logdy-core/models"
-	"github.com/logdyhq/logdy-core/modes"
-	"github.com/logdyhq/logdy-core/utils"
+	"github.com/rithakith/logdy-core-rk/http"
+	"github.com/rithakith/logdy-core-rk/models"
+	"github.com/rithakith/logdy-core-rk/modes"
+	"github.com/rithakith/logdy-core-rk/utils"
 )
 
 type Config struct {

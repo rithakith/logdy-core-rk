@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/logdyhq/logdy-core/models"
+	"github.com/rithakith/logdy-core-rk/models"
 )
 
 func TestProcessIncomingMessagesWithRotation_BasicRotation(t *testing.T) {

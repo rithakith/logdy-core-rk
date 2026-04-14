@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"runtime"
 
-	"github.com/logdyhq/logdy-core/models"
+	"github.com/rithakith/logdy-core-rk/models"
 	"github.com/sirupsen/logrus"
 )
 
@@ -14,7 +14,7 @@ import (
 	const data = {
 	      current_version: "0.4.0",
 	      current_version_published: "11 Feb 2024",
-	      download_link: "https://github.com/logdyhq/logdy-core/releases/tag/v0.3.0",
+	      download_link: "https://github.com/rithakith/logdy-core-rk/releases/tag/v0.3.0",
 	      excerpt: "What's new in version 0.4.0"
 	    };
 */

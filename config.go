@@ -3,8 +3,8 @@ package main
 import (
 	"os"
 
-	"github.com/logdyhq/logdy-core/http"
-	"github.com/logdyhq/logdy-core/modes"
+	"github.com/rithakith/logdy-core-rk/http"
+	"github.com/rithakith/logdy-core-rk/modes"
 	"github.com/spf13/cobra"
 )
 

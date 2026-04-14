@@ -5,7 +5,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/logdyhq/logdy-core/models"
+	"github.com/rithakith/logdy-core-rk/models"
 )
 
 func ProcessIncomingMessages(ch chan models.Message, appendToFile string, appendToFileRaw bool) chan models.Message {

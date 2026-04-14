@@ -1,4 +1,4 @@
-module github.com/logdyhq/logdy-core
+module github.com/rithakith/logdy-core-rk
 
 go 1.23.2
 
