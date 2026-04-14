@@ -12,6 +12,7 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/assert"
+	"runtime"
 )
 
 func readOutput(t *testing.T, stdout io.ReadCloser, outputChan chan string, followChan chan bool, wg *sync.WaitGroup) {
@@ -42,6 +43,9 @@ func readOutput(t *testing.T, stdout io.ReadCloser, outputChan chan string, foll
 }
 
 func TestLogdyE2E_FollowFullRead(t *testing.T) {
+	if runtime.GOOS == "windows" {
+		t.Skip("Skipping named pipe test on Windows")
+	}
 	// Create a named pipe
 	pipeName := "/tmp/logdy-test-pipe-full"
 

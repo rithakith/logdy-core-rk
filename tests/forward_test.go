@@ -23,17 +23,21 @@ func TestLogdyE2E_Forward(t *testing.T) {
 	wgServer.Add(1)
 
 	// Start TCP server
+	l, err := net.Listen("tcp", "127.0.0.1:0")
+	if err != nil {
+		t.Fatalf("Failed to listen: %v", err)
+	}
+	defer l.Close()
+
+	_, port, err := net.SplitHostPort(l.Addr().String())
+	assert.NoError(t, err)
+
 	go func() {
-		l, err := net.Listen("tcp", ":8475")
-		if err != nil {
-			panic(err)
-		}
-		defer l.Close()
 		wgServer.Done()
 
 		conn, err := l.Accept()
 		if err != nil {
-			panic(err)
+			return
 		}
 		defer conn.Close()
 
@@ -47,8 +51,8 @@ func TestLogdyE2E_Forward(t *testing.T) {
 	// Wait for server to be ready
 	wgServer.Wait()
 
-	// Start logdy process
-	cmd := exec.Command("go", "run", "../.", "forward", "8475")
+	// Start logdy process with a unique web port
+	cmd := exec.Command("go", "run", "../.", "forward", port, "-p", "8081")
 
 	// Get stdin pipe
 	stdin, err := cmd.StdinPipe()

@@ -16,7 +16,7 @@ import (
 	"github.com/rithakith/logdy-core-rk/modes"
 )
 
-var Version = "0.17.2-rk"
+var Version = "0.17.4-rk"
 
 var config *http.Config
 

@@ -36,7 +36,7 @@ archives:
       - goos: windows
         format: zip
     name_template: >-
-      {{ .ProjectName }}_{{ .Os }}_{{ .Arch }}{{ if .Arm }}v{{ .Arm }}{{ end }}
+      {{ .ProjectName }}_{{ .Version }}_{{ .Os }}_{{ .Arch }}{{ if .Arm }}v{{ .Arm }}{{ end }}
     files:
       - src: README.md
         dst: README.md
@@ -50,14 +50,7 @@ snapshot:
   version_template: "{{ incpatch .Version }}-next"
 
 changelog:
-  sort: asc
-  filters:
-    exclude:
-      - '^docs:'
-      - '^test:'
-      - '^chore:'
-      - 'Merge pull request'
-      - 'Merge branch'
+  disable: true
 
 release:
   github:
