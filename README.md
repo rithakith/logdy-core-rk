@@ -64,7 +64,6 @@ If you downloaded the Windows release, you can run it from PowerShell or Command
 
 **Note on `-t` (Fallthrough):** Use the `-t` flag if you want to see the logs in your terminal *and* the Web UI simultaneously.
 
-```
 
 ## Installation & PATH Setup
 
@@ -96,6 +95,19 @@ To run `logdy-rk` from any folder without typing the full path (`.\`), you must 
 If you have Go installed, this handles the PATH setup automatically (to your GOBIN):
 ```bash
 go install github.com/rithakith/logdy-core-rk@latest
+```
+
+### Windows Tips & Troubleshooting
+
+#### Running Batch Files (`.bat` / `.cmd`)
+If you try to run a local script like `logdy-rk stdin "start.bat"`, you might see an error:  
+`cannot run executable found relative to current directory`  
+
+This happens because Windows doesn't treat `.bat` files as "standalone executables." You must tell Windows to run them through the command shell:
+
+```powershell
+# Use 'cmd /c' to execute batch scripts
+logdy-rk stdin "cmd /c api-manager.bat" -t
 ```
 
 
