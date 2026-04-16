@@ -21,6 +21,10 @@ All credit for the core engine and design goes to the original **[Logdy Team](ht
 
 These modifications address specific workflow friction and UI layout issues:
 
+
+*   **Dynamic Application Title**: Set a custom application name in the settings to update the browser tab title and display a dedicated, centered title bar below the highlights.
+
+
 *   **Custom Highlighting**: Allows you to highlight specific words or phrases with custom colors, making it much easier to visually scan and identify important log entries.
 
 https://github.com/user-attachments/assets/6d2f0b13-dbb9-4f7e-b4ad-cb08619dfe6a
