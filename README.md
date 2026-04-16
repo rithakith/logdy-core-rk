@@ -11,7 +11,6 @@ A personal fork of Logdy that incorporates various improvements based on communi
 - [Installation and PATH Setup](#installation-and-path-setup)
     - [Windows](#windows)
     - [Ubuntu](#ubuntu)
-- [Building and Releasing](#building-and-releasing)
 - [License](#license)
 
 ## Acknowledgments
@@ -23,6 +22,12 @@ These modifications address specific workflow friction and UI layout issues:
 
 
 *   **Dynamic Application Title**: Set a custom application name in the settings to update the browser tab title and display a dedicated, centered title bar below the highlights.
+
+  
+
+https://github.com/user-attachments/assets/7b40fc03-a1f2-490b-8c79-816479688888
+
+
 
 
 *   **Custom Highlighting**: Allows you to highlight specific words or phrases with custom colors, making it much easier to visually scan and identify important log entries.
